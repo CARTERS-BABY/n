@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Lista de Alunos</title>
+		<link rel="stylesheet" href="estilo.css" />
+	</head>
+	<body>
+		<h1>Lista de Alunos</h1>
+		<div>
+			
+			<input type="text" id="aluno1" placeholder="inserir" />
+		</div>
+		<div>
+			
+			<input type="text" id="aluno2" placeholder="inserir" />
+		</div>
+		<div>
+			
+			<input type="text" id="aluno3" placeholder="inserir" />
+		</div>
+		<div>
+			
+			<input type="text" id="aluno4" placeholder="inserir" />
+		</div>
+
+		<button id="btnEnviar" onclick="enviar()">Enviar e mostrar em ordem</button>
+
+		<button id="btnOrganizar" onclick="organizar()">Organizar</button>
+
+		<div id="exibirAlunos"></div>
+
+		<div id="exibirOrganizado"></div>
+
+		<script src="app.js"></script>
+		
+		<button id="p" onclick="pesquisar()">pesquisar</button>
+
+	</body>
+</html>
